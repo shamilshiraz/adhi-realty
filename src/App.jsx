@@ -16,11 +16,13 @@ import Roadshow from "./pages/Roadshow";
 import Meetings from "./pages/Meetings";
 import AboutPage from "./pages/Aboutpage";
 import Contact from "./pages/Contact";
+import ScrollToTop from "./components/Scrolltotop";
 
 function App() {
   return (
     <>
 <Navbar/>
+<ScrollToTop/>
       <Routes>
         <Route
           path="/"
