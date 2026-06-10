@@ -20,9 +20,8 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <>
-
+<Navbar/>
       <Routes>
-              <Navbar />
         <Route
           path="/"
           element={
